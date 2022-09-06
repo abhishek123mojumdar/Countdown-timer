@@ -23,7 +23,7 @@ function startTimer() {
     } else if (initTime <= 5 && initTime > 0) {
       h4.style.color = 'red';
     } else if (initTime === 0) {
-      console.log('here');
+      h4.style.display = 'none';
       clearInterval(interVal);
       initTime = 20;
       buttonReset.style.display = 'inline';
